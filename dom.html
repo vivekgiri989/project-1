@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom by anuj</title>
+    <style>
+        .main {
+            margin: 10px;
+            padding: 10px;
+            text-transform: capitalize;
+        }
+
+        #first {
+            font-family: serif;
+        }
+
+        /* #second {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: blue;
+            background-color: #a89e9e;
+            border-radius: 5px;
+            border: 2px solid black;
+        } */
+
+        .form {
+            margin: 15px;
+            border: 3px solid black;
+            text-align: center;
+            padding: 15px;
+        }
+
+        #result {
+            color: red;
+            margin: 10px;
+            padding: 10px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="main" id="first">This project only for small practice of small video and
+        small steps</h1>
+    <h2 class="main" id="second">better response Expansion & Employment: TCS is aggressively scaling up its physical
+        presence and footprint in India, especially in Kolkata.
+        Client & Cybersecurity Integrity: Its timely reassurance post M&S hack reinforces its reputation in governance
+        and trust.
+    </h2>
+
+    <div class="form">
+        <label>Name
+            <input type="text" name="" id="name">
+        </label><br>
+        <label>Father name
+            <input type="text" name="" id="father">
+        </label><br>
+        <label class="gen">gender
+            <input type="radio" name="gender" id="">Male
+            <input type="radio" name="gender" id="">Female
+            <input type="radio" name="gender" id="">Other
+        </label><br>
+        <label>Phone No.
+            <input type="number" name="" id="phone">
+        </label><br>
+        <label>Member
+            <input type="text" name="" id="mem">
+        </label><br>
+        <label>
+            <button id="mybtn">Submit</button>
+        </label>
+        <h3 id="result">bestdsgyufy7gufdyguyg</h3>
+    </div>
+
+    <!-- new video  -->
+    <div class="best">
+        <p id="first">this is first</p>
+        <p id="music">this is chjsdhijfeijfoij</p>
+        <p id="third">this is third</p>
+        <p id="four"> this is four element</p>
+    </div>
+</body>
+<script>
+    window.onload = function () {
+        const name = document.getElementById("name")
+        const father = document.getElementById("father")
+        let gender = document.getElementsByClassName("gen")
+        const phone = document.getElementById("phone")
+        const Member = document.getElementById("member")
+        const btn = document.getElementById("mybtn")
+
+        const full = document.getElementById("result");
+        full.innerHTML = "this is mehus";
+        console.log(full)
+        full.style.borderColor = "yellow"  //css styling by  javascript
+        full.style.background = "blue"
+
+
+        //new video
+        let newcl = document.getElementsByClassName("best")
+        console.log(newcl)
+        let first = document.getElementById("first")
+        console.log(first)
+        const second = document.getElementById("music")
+        console.log(second);
+
+        //use of query selector see console
+        let query = document.querySelectorAll("p")
+        console.log(query)
+
+        let round = document.getElementsByClassName("main");
+        console.log(round)
+
+        //use \n for print new line 
+        // use \t for new tab  go inspect and see result
+        console.log("this is first section \n this is second section \t make sure this is best option \n to something new idea with best parameter")
+
+        //start javascript function by chai or code 
+        function sayMyName() {
+            console.log("V");
+            console.log("I");
+            console.log("V");
+            console.log("E");
+            console.log("K");
+            console.log(" ");
+            console.log("G");
+            console.log("I");
+            console.log("R");
+            console.log("I");
+        }
+        // sayMyName()
+
+        function addTwoNum(num1, num2) {
+            console.log(`first add ${num1 + num2}`);
+            console.log(num1 * num2);
+        }
+        // addTwoNum(24, 17)  //function ko call kiya arguments ke do arguments ke sath
+
+        // function addTwoNum(func1, func2 = 70, func3 = 25) {
+        //     // console.log(`add with func2 with automatic ${func1 + func2 + func3}`);
+        //     let mount = func1 + func2 + func3
+        //     return mount;
+        // }
+        // console.log(mount)
+
+        function logn(username) {
+            return `${username} just logged in`;
+
+        }
+        logn("vivekgiri");
+
+
+
+
+
+
+
+
+    }
+
+
+</script>
+
+</html>
