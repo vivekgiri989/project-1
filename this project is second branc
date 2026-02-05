@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thapa first project</title>
+</head>
+
+<body>
+    <!---our header-->
+    <header>
+        <div class="logo">
+            <img src="1 pin.jpg" alt="logo" height="150px" width="150px"><br>
+            <a href="1 pin.jpg">This is my logo </a><br>
+            <a href="I will do website development_In php laravel.jpg">Full Roadmap of full stack developer</a>
+        </div>
+        <nav>
+            <hr>
+            <ol style="display: flex; gap: 30px;">
+                <li><a href="https://www.wix.com/blog/how-to-start-a-tech-business">blog section</a></li>
+                <li><a href="https://medium.com/@rajanraj8979/roadmap-for-learning-html-88b22e36e3fe">contact</a></li>
+                <li><a href="https://www.wix.com/blog/how-to-start-a-tech-business">details</a></li>
+                <li><a href="https://medium.com/@rajanraj8979/roadmap-for-learning-html-88b22e36e3fe">service</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-content">
+            <h1>i am vivek giri from uttar pradesh</h1>
+            <p>
+                this website make by me using see video tourial on youtube by thapa channel
+                and some interesting thing taking is better decesion of my life according me ??
+            </p>
+            <button>see my Instagram i'd</button> <br><br>
+            <hr>
+            <button> href="https://www.youtube.com/@LabourLawAdvisor" target="_blank">See my youtube channel/></button>
+        </div><br>
+        <img src="download.jpg" alt="this image a small child" height="400px" width="400px">
+    </main>
+    <h2>About my channel ? </h2>
+    <hr>
+    <div>Learn about basic SEO (Search Engine Optimization) principles for
+        HTML Semantics and Best Practices</div>
+    <p><strong><u>My progress :-</u> </strong></p>
+    <div class="service-gallery" style="display: flex;">
+        <figure>
+            <img src="1 pin.jpg" alt="project 1" height="300px" width="300px">
+            <figcaption><i>this is my first photo.</i></figcaption>
+        </figure>
+        <figure>
+            <img src="motivational\100062800012_143023.jpg" alt="project 2" height="300px" width="300px">
+            <figcaption><i>this is my first photo.</i></figcaption>
+        </figure>
+        <figure>
+            <img src="motivational\IMG_20211020_070750_415.jpg" alt="project 3" height="300px" width="300px">
+            <figcaption><i>this is my first photo.</i></figcaption>
+        </figure>
+        <figure>
+            <img src="motivational\IMG_20211213_115016_175.jpg" alt="project 4" height="300px" width="300px">
+            <figcaption><i>this is my first photo.</i></figcaption>
+        </figure>
+        <figure>
+            <img src="motivational\IMG_20220228_151008_255.jpg" alt="project 5" height="300px" width="300px">
+            <figcaption><i>this is my first photo.</i></figcaption>
+        </figure>
+
+    </div>
+
+    <article>
+        <header>
+            <h2>Please write about your web designing skills name and experience --</h2>
+            <p>this is my descrition which is making by me and i am start write web developer now 2023 last six
+                months.br<br>
+                <i> know about different types of tag and attribute sections </i>
+            </p>
+        </header>
+    </article>
+    <button><a href="https://www.youtube.com/@Round2hell">this is best channle for learning
+            something</a></button><br><br><br>
+    <iframe width="400" height="400" src="https://www.youtube.com/embed/orK0WFvN0OU?si=oqRRqCS-wTgd6Pcb"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+    <iframe width="400" height="400" src="https://www.youtube.com/embed/ipqkEttTe_w?si=54OMZfx1fr1RvwhS"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dPq5zBjCfd0?si=0Olj-MJv5364Z2cs"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+</html>
